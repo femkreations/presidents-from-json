@@ -1,0 +1,37 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+table{
+	border-collapse: collapse;
+    width: 100%;
+    margin-top:20px;
+}
+
+table td, table th {
+  border: 1px solid #f9f1ed;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f8f5f1;}
+
+table tr:hover {background-color: #f9f1ed;}
+
+table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #ed6b29;
+  color: white;
+}
+#get-details{
+  background-color:#443328;
+  padding:10px 15px;
+  font-size:1em;
+  font-weight:bold;
+  border-radius:5px;
+  color:white;
+}
+#get-details[disabled]{
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
